@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="JSLink_List" OnQuickLaunch="TRUE" TemplateType="11000" Url="Lists/JSLink_List" Description="A list that uses JSLink to mask data in specific fields">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Sample Item 1</Field>
+          <Field Name="MaskThisField">20K</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Sample Item 2</Field>
+          <Field Name="MaskThisField">15K</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Sample Item 3</Field>
+          <Field Name="MaskThisField">10K</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Sample Item 4</Field>
+          <Field Name="MaskThisField">5K</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>
